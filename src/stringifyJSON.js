@@ -4,5 +4,7 @@
 // but you don't so you're going to write it from scratch:
 
 var stringifyJSON = function(obj) {
-  // your code goes here
+  if(typeof(obj) === 'function' || typeof(obj) === 'undefined'){
+    console.log(obj);
+  }
 };
